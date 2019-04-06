@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Visualization Dashboard</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-nav">
+      <div class="navbar"
+            <nav class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              </nav>  
+          <div class="navbar-header">
+              <a class="navbar-brand" href="landingBW.html">Landings</a>
+          </div>
+          
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="landingBW.html">Home</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="visual1.html">Max Temperature</a></li>
+                <li><a href="visual2.html">Humidity</a></li>
+                <li><a href="visual3.html">Cloudiness</a></li>
+                <li><a href="visual4.html">Wind Speed</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Comparison</a></li>
+            <li><a href="#">Data</a></li>
+          </ul>
+        </div>
+      </nav>
+<br><br><br><br>
+<div class="container" style="padding-top:80px">
+  <div class="row">
+    <div class="col-md-6 ">
+      <div class = "box viz_header">Summary: Latitude vs. X<br><br>
+        <img src="temp_vs_lat.png" alt="Max Temp" height ="150" width="200" style="float:left; margin-right: 10px">
+      <p class="text1" style="text-align:left; padding-top:10px">The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities. <br><br> After assembling
+      </p></div>
+    </div>
+    <div class ="row">
+      <div class="col-md-6">
+        <div class = "box viz_header">Visualizations</div>
+      </div>
+    </div>
+  </body>
+
+</html>
