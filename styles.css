@@ -1,0 +1,28 @@
+body {
+    background-color: #cccbcb;
+}
+.box {
+    min-height: 20px;
+    padding-top: 50px;
+    padding-bottom: 300px;
+    padding-left: 40px;
+    padding-right: 50px;
+    background-color:#f8f6f6;
+  }
+.viz_header {
+    font-weight:bold;
+    font-size: 16pt;
+}
+
+
+.blue {
+    background: #1aaff5;
+}
+.text1 {
+  font-size: 10pt;
+}
+p {
+  text-align:right;
+  font-size:500px;
+}
+
