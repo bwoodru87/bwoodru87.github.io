@@ -9,6 +9,15 @@ body {
     padding-right: 50px;
     background-color:#f8f6f6;
   }
+
+.box1 {
+    min-height: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 100px;
+    padding-right: 25px;
+    background-color:#f8f6f6;
+  }
 .viz_header {
     font-weight:bold;
     font-size: 18pt;
@@ -19,6 +28,34 @@ body {
 }
 .text1 {
   font-size: 12pt;
+}
+.dataframe {
+  min-height: 20px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  padding-left: 100px;
+  padding-right: 50px;
+  background-color:#f8f6f6;
+  font-size:10pt;
+  border-color:black;
+  border-width:5px;
+  border-spacing:3px;
+  align-self:center;
+}
+.col-md-10 {
+  align-content:center;
+}
+
+.pos-f-t {
+  display: none;
+}
+@media(max-width: 500px) {
+  .navbar-nav a {
+    display: none;
+  }
+  .post-f-t {
+    display: inline-block;
+  }
 }
 
 
